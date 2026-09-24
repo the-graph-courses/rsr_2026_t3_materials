@@ -1,5 +1,5 @@
 ---
-title: "RSR Workshop 1 Instructions Document"
+title: "RSR Workshop 1 Instructions"
 subtitle: "Tidyverse and RMarkdown Practice"
 author: "The GRAPH Courses Team"
 output:
@@ -9,7 +9,7 @@ output:
 
 # Introduction
 
-Welcome to your first workshop assignment for the Research Statistics with R (RSR) Bootcamp! In this week's exercise, you will use your understanding of the {tidyverse} package and RMarkdown to create a short report.
+Welcome to your first workshop assignment for the Research Statistics with R (RSR) bootcamp! In this week's exercise, you will use your understanding of the {tidyverse} package and RMarkdown to create a short report.
 
 The goal of today's workshop is to reinforce your skills in **data wrangling**, **visualization**, and **reporting** using R.
 
@@ -126,17 +126,17 @@ For this, use the `covid_us_subset` by doing the following, and store it as `exp
 
 **CHECK**: Your `expired_demographics` summary table should have 5 rows and 2 columns. The first few rows of your summary table should look like this:
 
-+------------+---------+
-| race       | n       |
-|            |         |
-| \<chr\>    | \<int\> |
-+:===========+========:+
-| Asian      | 32      |
-+------------+---------+
-| Black      | 23     |
-+------------+---------+
-| Hispanic   | 1       |
-+------------+---------+
++----------+----------+
+| race     | n        |
+|          |          |
+| \<chr\>  | \<int\>  |
++:=========+=========:+
+| Asian    | 32       |
++----------+----------+
+| Black    | 23 \|    |
++----------+----------+
+| Hispanic | 1        |
++----------+----------+
 
 ## TASK 11: KNIT YOUR RMARKDOWN DOCUMENT
 
